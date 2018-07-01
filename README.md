@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CI/CD Resume
 
 * This is a simple setup to demonstrate CI/CD
@@ -38,3 +39,6 @@
 * Upon invoking, Webhook downloads the latest resume.html from github and replaces the old content
 * As soon as the html is refreshed, it makes its way to the container
 * Once you refresh the web page, we see the changes checked into github
+=======
+# Resume
+>>>>>>> 7ba3ab681ded0b62a4a7c9dc96c0f4f416140c25
