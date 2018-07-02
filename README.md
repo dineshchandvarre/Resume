@@ -1,9 +1,9 @@
 
 # CI/CD Resume
 
-* This is a simple setup to demonstrate CI/CD
-* You have to realize this is not how CI/CD works in real organizations
-* This project tries to demonstrate all the important concepts
+* This is a trivial setup to demonstrate CI/CD
+* We do realize this is not how CI/CD works in real organizations
+* This project tries to demonstrate the important concepts
 
 
 ## Concepts demonstrated
@@ -17,13 +17,13 @@
 
 * Github
 * webhook
-* Digitalocean droplet (this is what hosts your resume)
+* Digitalocean droplet (this is what hosts the resume)
 
 ## What exactly happens in the pipeline
 
 * The resume is just a html document with CSS
 * Digitalocean droplet is running a docker host on ubuntu
-* We are running a NGINX docker container which server our static website
+* We are running a NGINX docker container which serves our static website
  -  we have mounted the folder containing resume on the docker container as a volume
  -  so whenever we change the resume.html on docker host nginx container serving the content will get the updates
 * We have installed a webhook receiver on the digitalocean droplet to receive webhooks
